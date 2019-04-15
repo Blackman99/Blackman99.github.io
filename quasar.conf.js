@@ -1,5 +1,6 @@
 // Configuration for your app
 const SplitChunksPlugin = require('webpack').optimize.SplitChunksPlugin;
+const path = require('path');
 module.exports = function(ctx) {
   return {
     // app plugins (/src/plugins)
