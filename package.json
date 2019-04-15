@@ -1,0 +1,37 @@
+{
+  "name": "DonSen'sWebsite",
+  "version": "0.0.1",
+  "description": "DonSen's website",
+  "productName": "DonSen's website",
+  "cordovaId": "site.donsen",
+  "author": "1197160272@qq.com",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "set NODE_ENV=dev&& quasar dev",
+    "build": "set NODE_ENV=prod&& quasar build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "d3": "^5.7.0",
+    "uuid": "^3.3.2",
+    "vue-i18n": "^7.3.3",
+    "vue-quill-editor": "^3.0.6",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "quasar-cli": "^0.17.22",
+    "quill-image-extend-module": "^1.1.2",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+ul,ol,li{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  transition: all linear .3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+b {
+  color: #333333;
+  text-transform: none;
+}
+
+.card {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .2), 0 2px 2px rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+}
+
+.row, .column {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+.q-btn{
+  text-transform: none;
+}
