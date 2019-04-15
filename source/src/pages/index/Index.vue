@@ -4,7 +4,7 @@
 	<div class="module-container" :style="{
 		transform: `translateY(-${item*100}vh)`
 	}">
-		<div style="height:100vh;">
+		<div style="height:100vh;" class="column items-center justify-center">
 			<svg id="name">
 			</svg>
 			<div class="column items-center justify-center" style="cursor:pointer;" @click="item = item + 1">
