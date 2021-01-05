@@ -12,7 +12,7 @@
     "build": "set NODE_ENV=prod&& quasar build"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "d3": "^5.7.0",
     "uuid": "^3.3.2",
     "vue-i18n": "^7.3.3",
